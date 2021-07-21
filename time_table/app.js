@@ -3,7 +3,7 @@ let current_class_btn = document.getElementById("current_class_btn");
 let next_class = document.getElementById("next_class");
 let next_class_btn = document.getElementById("next_class_btn");
 let next_class_time = document.getElementById("next_class_time");
-
+let h2 = document.querySelectorAll("h2");
 
 const schedule = {
     1:{
@@ -181,9 +181,12 @@ function find_classes(current_hours,day){
         }
     }
     else{
-        current_class.textContent = "No class today,Enjoy";
+        current_class.textContent = "No classes today,Enjoy!";
         current_class_btn.style.display = "none";
-        next_class_btn.display.style = "none";
+        next_class_btn.style.display = "none";
+        for(let i=0;i<h2.length;i++){
+            h2[i].style.display = "none";
+        }
     }
 }
 
