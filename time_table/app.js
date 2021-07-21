@@ -123,7 +123,7 @@ const schedule = {
 function find_classes(current_hours,day){
     if(day in schedule){
         if (current_hours in schedule[day]){
-            current_class.textContent = `Current Class ${schedule[day][current_hours].subject}`
+            current_class.textContent = `${schedule[day][current_hours].subject}`
             current_class_btn.textContent = "Join";
             current_class_btn.href = `${schedule[day][current_hours].link}`;
         }
@@ -154,7 +154,7 @@ function find_classes(current_hours,day){
         for(i=current_hours+1;i<=24;i++){
             if(i in schedule[day]){
                 if(i>12){
-                    next_class_time.textContent = `${i}PM`;
+                    next_class_time.textContent = `${i-12}PM`;
                     next_class.textContent = `${schedule[day][i].subject}`;
                     next_class_btn.textContent = "Join";
                     next_class_btn.href = `${schedule[day][i].link}`;
@@ -196,7 +196,7 @@ function myTimer() {
   const time_split = (time.slice(0,time_length-3)).split(":");
   const current_hours = Number(time_split[0]);
   const isMorning = time.slice(time_length-2,time_length) == 'AM';
-  if(!isMorning){
+  if(!isMorning && current_hours!=12){
       current_hours += 12;
   }
   find_classes(current_hours,day);
