@@ -137,9 +137,9 @@ function find_classes(current_hours,day){
                         break;
                     }
                     if(current_class_duration >= i+1){
-                        current_class.textContent = `Current Class ${schedule[day][temp].subject}`;
+                        current_class.textContent = `${schedule[day][temp].subject}`;
                         current_class_btn.textContent = "Join"
-                        current_class_btn.href = `Current Class ${schedule[day][temp].link}`;
+                        current_class_btn.href = `${schedule[day][temp].link}`;
                         class_there = true;
                         break;
                     }
