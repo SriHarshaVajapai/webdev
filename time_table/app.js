@@ -194,7 +194,7 @@ function myTimer() {
   const time = d.toLocaleTimeString();
   const time_length = time.length;
   const time_split = (time.slice(0,time_length-3)).split(":");
-  const current_hours = Number(time_split[0]);
+  let current_hours = Number(time_split[0]);
   const isMorning = time.slice(time_length-2,time_length) == 'AM';
   if(!isMorning && current_hours!=12){
       current_hours += 12;
