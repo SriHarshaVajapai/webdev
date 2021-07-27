@@ -4,6 +4,9 @@ let next_class = document.getElementById("next_class");
 let next_class_btn = document.getElementById("next_class_btn");
 let next_class_time = document.getElementById("next_class_time");
 let h2 = document.querySelectorAll("h2");
+let hours = document.querySelector("#hours")
+let min = document.querySelector("#min")
+let sec = document.querySelector("#sec")
 
 const schedule = {
     1:{
@@ -190,6 +193,12 @@ function find_classes(current_hours,day){
     }
 }
 
+function show_time(time_split){
+    hours.textContent = time_split[0]
+    min.textContent = time_split[1]
+    sec.textContent = time_split[2]
+}
+
 
 function myTimer() {
   const d = new Date();
@@ -197,6 +206,7 @@ function myTimer() {
   const time = d.toLocaleTimeString();
   const time_length = time.length;
   const time_split = (time.slice(0,time_length-3)).split(":");
+  show_time(time_split)
   let current_hours = Number(time_split[0]);
   const isMorning = time.slice(time_length-2,time_length) == 'AM';
   if(!isMorning && current_hours!=12){

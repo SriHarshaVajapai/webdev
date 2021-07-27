@@ -14,6 +14,28 @@
     font-family: 'Anton', sans-serif;
 }
 
+
+aside{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p{
+    display: inline;
+}
+
+.time{
+    text-align: center;
+    display: inline-block;    
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    color: #ffffff;
+    background-color: #17252A;
+}
+
 .d-flex{
     margin: 27vh 0;
 }
