@@ -13,7 +13,7 @@ const schedule = {
         9 : {
             subject : "Operating Systems",
             prof : "Sanjeet Kumar",
-            link : "",
+            link : "https://meet.google.com/ray-dwtd-ewx",
             duration: 1
         },
         10 : {
@@ -91,7 +91,7 @@ const schedule = {
         14 : {
             subject : "Operating Systems",
             prof : "Sanjeet Kumar",
-            link : "",
+            link : "https://meet.google.com/ray-dwtd-ewx",
             duration: 1
         },
         15 : {
@@ -105,7 +105,7 @@ const schedule = {
         10 : {
             subject : "Operating Systems",
             prof : "Sanjeet Kumar",
-            link : "",
+            link : "https://meet.google.com/ray-dwtd-ewx",
             duration: 1
         },
         11 : {
@@ -117,7 +117,7 @@ const schedule = {
         15 : {
             subject : "Operating Systems Practice",
             prof : "Sanjeet Kumar",
-            link : "",
+            link : "https://meet.google.com/ray-dwtd-ewx",
             duration: 3
         }
     }
