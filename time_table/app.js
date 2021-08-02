@@ -11,15 +11,15 @@ let sec = document.querySelector("#sec")
 const schedule = {
     1:{
         9 : {
-            subject : "Operating Systems",
-            prof : "Sanjeet Kumar",
-            link : "https://meet.google.com/ray-dwtd-ewx",
-            duration: 1
-        },
-        10 : {
             subject : "Computer Networking",
             prof : "Jagadeesh Kakarla",
             link : "",
+            duration: 1
+        },
+        10 : {
+            subject : "Operating Systems",
+            prof : "Sanjeet Kumar",
+            link : "https://meet.google.com/ray-dwtd-ewx",
             duration: 1
         },
         12 : {
@@ -62,6 +62,12 @@ const schedule = {
         },
     },
     3:{
+        9 : {
+            subject : "Computer Networking",
+            prof : "Jagadeesh Kakarla",
+            link : "",
+            duration: 1  
+        },
         11 : {
             subject : "Sustainable Design",
             prof : "Raghuraman",
@@ -106,12 +112,6 @@ const schedule = {
             subject : "Operating Systems",
             prof : "Sanjeet Kumar",
             link : "https://meet.google.com/ray-dwtd-ewx",
-            duration: 1
-        },
-        11 : {
-            subject : "Computer Networking",
-            prof : "Jagadeesh Kakarla",
-            link : "",
             duration: 1
         },
         15 : {
