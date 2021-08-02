@@ -31,7 +31,7 @@ const schedule = {
         14 : {
             subject : "Automata and Compiler Design",
             prof : "Venkatesh Pandiri",
-            link : "",
+            link : "https://meet.google.com/zau-eabz-cka",
             duration: 1
         }
     },
@@ -51,7 +51,7 @@ const schedule = {
         12 : {
             subject : "Automata and Compiler Design",
             prof : "Venkatesh Pandiri",
-            link : "",
+            link : "https://meet.google.com/zau-eabz-cka",
             duration: 1
         },
         16 : {
@@ -91,7 +91,7 @@ const schedule = {
         11 : {
             subject : "Automata and Compiler Design",
             prof : "Venkatesh Pandiri",
-            link : "",
+            link : "https://meet.google.com/zau-eabz-cka",
             duration: 1
         },
         14 : {
