@@ -13,7 +13,7 @@ const schedule = {
         9 : {
             subject : "Computer Networking",
             prof : "Jagadeesh Kakarla",
-            link : "",
+            link : "https://meet.google.com/lookup/f2pwqkufm5",
             duration: 1
         },
         10 : {
@@ -25,7 +25,7 @@ const schedule = {
         12 : {
             subject : "VLSI Systems Design",
             prof : "Akash Kumar",
-            link : "",
+            link : "https://meet.google.com/mfg-svnr-bjz?hs=224",
             duration: 1
         },
         14 : {
@@ -39,13 +39,13 @@ const schedule = {
         9 : {
             subject : "Computer Networking",
             prof : "Jagadeesh Kakarla",
-            link : "",
+            link : "https://meet.google.com/lookup/f2pwqkufm5",
             duration: 1
         },
         11 : {
             subject : "VLSI Systems Design",
             prof : "Akash Kumar",
-            link : "",
+            link : "https://meet.google.com/mfg-svnr-bjz?hs=224",
             duration: 1
         },
         12 : {
@@ -57,7 +57,7 @@ const schedule = {
         16 : {
             subject : "Entrepreneurship and management functions",
             prof : "Sudhir Varadarajan",
-            link : "",
+            link : "https://teams.microsoft.com/_#/school/conversations/General?threadId=19:GkIOfVu3qziLTRCq3xU54M2XD4YRnQhtyxeFzY2kTJs1@thread.tacv2&ctx=channel",
             duration: 2
         },
     },
@@ -65,7 +65,7 @@ const schedule = {
         9 : {
             subject : "Computer Networking",
             prof : "Jagadeesh Kakarla",
-            link : "",
+            link : "https://meet.google.com/lookup/f2pwqkufm5",
             duration: 1  
         },
         11 : {
@@ -85,19 +85,19 @@ const schedule = {
         9 : {
             subject : "VLSI Systems Design",
             prof : "Akash Kumar",
-            link : "",
+            link : "https://meet.google.com/mfg-svnr-bjz?hs=224",
+            duration: 1
+        },
+        10 : {
+            subject : "Operating Systems",
+            prof : "Sanjeet Kumar",
+            link : "https://meet.google.com/ray-dwtd-ewx",
             duration: 1
         },
         11 : {
             subject : "Automata and Compiler Design",
             prof : "Venkatesh Pandiri",
             link : "https://meet.google.com/zau-eabz-cka",
-            duration: 1
-        },
-        14 : {
-            subject : "Operating Systems",
-            prof : "Sanjeet Kumar",
-            link : "https://meet.google.com/ray-dwtd-ewx",
             duration: 1
         },
         15 : {
