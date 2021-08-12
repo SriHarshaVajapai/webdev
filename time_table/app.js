@@ -71,7 +71,7 @@ const schedule = {
         11 : {
             subject : "Sustainable Design",
             prof : "Raghuraman",
-            link : "",
+            link : "https://meet.google.com/rbv-suvk-jkc",
             duration: 2
         },
         15 : {
@@ -103,7 +103,7 @@ const schedule = {
         15 : {
             subject : "Computer Networking Practice",
             prof : "Jagadeesh Kakarla",
-            link : "",
+            link : "https://meet.google.com/dfg-zspj-cmd?authuser=0",
             duration: 3
         }
     },
