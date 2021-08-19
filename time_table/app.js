@@ -103,7 +103,7 @@ const schedule = {
         15 : {
             subject : "Computer Networking Practice",
             prof : "Jagadeesh Kakarla",
-            link : "https://meet.google.com/dfg-zspj-cmd?authuser=0",
+            link : "https://meet.google.com/eom-voag-hzn?authuser=0",
             duration: 3
         }
     },
